@@ -9,7 +9,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Components | Royal Arm Software Company</title>
+  <title>Donate | Royal Arm Software Company</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -41,7 +41,7 @@
       padding: 0 20px;
     }
 
-    /* Header styles */
+    /* Header Styles */
     header {
       padding: 20px 0;
       position: fixed;
@@ -131,7 +131,7 @@
       padding: 10px;
     }
 
-    /* Hero section */
+    /* Hero Section */
     .hero {
       padding: 120px 0 60px;
       text-align: center;
@@ -157,41 +157,108 @@
       margin: 0 auto;
     }
 
-    /* Components Section */
-    .components-section {
+    /* Donation Form Section */
+    .donation-section {
       padding: 60px 0;
       background-color: var(--dark);
     }
 
-    .category-title {
-      font-size: 28px;
-      color: var(--secondary);
-      margin-bottom: 20px;
-      font-weight: 400;
+    .donation-form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: rgba(26, 26, 26, 0.8);
+      padding: 40px;
+      border: 1px solid rgba(200, 164, 92, 0.2);
+      border-radius: 8px;
     }
 
-    .components-grid {
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--light);
+      font-size: 16px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px;
+      background-color: rgba(245, 245, 245, 0.1);
+      border: 1px solid rgba(200, 164, 92, 0.2);
+      color: var(--light);
+      font-size: 16px;
+      border-radius: 4px;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--secondary);
+    }
+
+    .donation-amounts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .donation-amounts input[type="radio"] {
+      display: none;
+    }
+
+    .donation-amounts label {
+      flex: 1;
+      min-width: 100px;
+      padding: 12px;
+      background-color: rgba(245, 245, 245, 0.1);
+      border: 1px solid rgba(200, 164, 92, 0.2);
+      text-align: center;
+      cursor: pointer;
+      color: var(--light);
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+
+    .donation-amounts input[type="radio"]:checked + label {
+      background-color: var(--secondary);
+      color: var(--dark);
+      border-color: var(--secondary);
+    }
+
+    .donation-amounts label:hover {
+      border-color: var(--secondary);
+    }
+
+    /* Impact Section */
+    .impact-section {
+      padding: 60px 0;
+      background-color: var(--primary);
+    }
+
+    .impact-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 20px;
     }
 
-    .component-card {
+    .impact-card {
       background-color: rgba(26, 26, 26, 0.8);
       padding: 20px;
       border: 1px solid rgba(200, 164, 92, 0.2);
       border-radius: 8px;
       transition: transform 0.3s, border-color 0.3s;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
-    .component-card:hover {
+    .impact-card:hover {
       transform: translateY(-5px);
       border-color: var(--secondary);
     }
 
-    .component-card img {
+    .impact-card img {
       width: 100%;
       height: 150px;
       object-fit: cover;
@@ -199,24 +266,17 @@
       margin-bottom: 10px;
     }
 
-    .component-card h4 {
+    .impact-card h4 {
       font-size: 20px;
       color: var(--secondary);
       margin-bottom: 10px;
     }
 
-    .component-card p {
+    .impact-card p {
       color: rgba(245, 245, 245, 0.7);
-      margin-bottom: 10px;
     }
 
-    .price {
-      font-size: 18px;
-      color: var(--light);
-      margin-bottom: 10px;
-    }
-
-    /* Footer */
+    /* Footer Styles */
     footer {
       padding: 50px 0;
       background-color: var(--dark);
@@ -283,7 +343,7 @@
       font-size: 14px;
     }
 
-    /* Responsive styles */
+    /* Responsive Styles */
     @media (max-width: 1200px) {
       .container {
         max-width: 960px;
@@ -302,17 +362,9 @@
       .hero h2 {
         font-size: 36px;
       }
-
-      .category-title {
-        font-size: 24px;
-      }
     }
 
     @media (max-width: 768px) {
-      .container {
-        max-width: 540px;
-      }
-
       .header-content {
         flex-wrap: wrap;
         position: relative;
@@ -356,15 +408,19 @@
 
       .hero h2 {
         font-size: 32px;
-        letter-spacing: 2px;
       }
 
       .hero p {
         font-size: 16px;
       }
 
-      .components-section {
+      .donation-section,
+      .impact-section {
         padding: 40px 0;
+      }
+
+      .donation-form {
+        padding: 30px;
       }
     }
 
@@ -385,13 +441,12 @@
         font-size: 15px;
       }
 
-      .component-card h4 {
-        font-size: 18px;
+      .donation-form {
+        padding: 20px;
       }
 
-      .cta-button {
-        font-size: 12px;
-        padding: 6px 16px;
+      .impact-card h4 {
+        font-size: 18px;
       }
     }
   </style>
@@ -399,120 +454,74 @@
 
 <body>
   <!-- Header -->
-<?php include 'includes/navbar.php' ?>
+  <?php include 'includes/navbar.php'; ?>
+
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h2>Discover <span>Free Components</span></h2>
-      <p>Access our collection of free, reusable components to elevate your web development projects, organized by category for seamless integration.</p>
+      <h2>Support <span>Royal Arm’s Mission</span></h2>
+      <p>Your donation empowers us to provide free education, develop open-source components, and drive innovation in web development.</p>
     </div>
   </section>
 
-  <!-- Components Section -->
-  <section class="components-section" id="components">
+  <!-- Donation Form Section -->
+  <section class="donation-section">
     <div class="container">
-      <!-- UI Kits -->
-      <div class="category">
-        <h3 class="category-title">UI Kits</h3>
-        <div class="components-grid">
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Tailwind UI Kit">
-            <h4>Tailwind UI Kit</h4>
-            <p>Reusable UI components like buttons, cards, and modals for Tailwind CSS.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
+      <div class="donation-form">
+        <h3 class="text-2xl text-[var(--secondary)] font-medium text-center mb-6">Make a Donation</h3>
+        <form action="/process-donation.php" method="POST">
+          <div class="form-group">
+            <label for="amount">Choose an Amount</label>
+            <div class="donation-amounts">
+              <input type="radio" name="amount" id="amount-10" value="10" checked>
+              <label for="amount-10">100 pkr</label>
+              <input type="radio" name="amount" id="amount-25" value="25">
+              <label for="amount-25">200 pkr</label>
+              <input type="radio" name="amount" id="amount-50" value="50">
+              <label for="amount-50">500 pkr</label>
+              <input type="radio" name="amount" id="amount-100" value="100">
+              <label for="amount-100">1000 pkr</label>
+              <input type="radio" name="amount" id="amount-custom" value="custom">
+              <label for="amount-custom">Custom</label>
+            </div>
           </div>
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="React UI Kit">
-            <h4>React UI Kit</h4>
-            <p>Pre-built React components for dynamic, Tailwind-styled interfaces.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
+          <div class="form-group" id="custom-amount-group" style="display: none;">
+            <label for="custom-amount">Enter Custom Amount</label>
+            <input type="number" id="custom-amount" name="custom-amount" placeholder="pkr 0.00" min="1">
           </div>
-        </div>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+          </div>
+          <button type="submit" class="cta-button w-full text-center">Donate Now</button>
+        </form>
       </div>
+    </div>
+  </section>
 
-      <!-- Animation Packs -->
-      <div class="category">
-        <h3 class="category-title">Animation Packs</h3>
-        <div class="components-grid">
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="GSAP Animation Pack">
-            <h4>GSAP Animation Pack</h4>
-            <p>Smooth scroll-triggered animations using GSAP for engaging websites.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="AOS Animation Pack">
-            <h4>AOS Animation Pack</h4>
-            <p>Lightweight animate-on-scroll library for performant animations.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
+  <!-- Impact Section -->
+  <section class="impact-section">
+    <div class="container">
+      <h3 class="text-2xl text-[var(--secondary)] font-medium text-center mb-6">Your Impact</h3>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <img src="/api/placeholder/300/150" alt="Free Education">
+          <h4>Free Education</h4>
+          <p>Fund free AI-driven courses for aspiring developers worldwide.</p>
         </div>
-      </div>
-
-      <!-- Website Templates -->
-      <div class="category">
-        <h3 class="category-title">Website Templates</h3>
-        <div class="components-grid">
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Portfolio Template">
-            <h4>Portfolio Template</h4>
-            <p>Responsive portfolio template for developers, built with Tailwind CSS.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="E-Commerce Template">
-            <h4>E-Commerce Template</h4>
-            <p>Modern e-commerce template with product grids and checkout UI.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
+        <div class="impact-card">
+          <img src="/api/placeholder/300/150" alt="Open-Source Components">
+          <h4>Open-Source Components</h4>
+          <p>Support the development of free, reusable UI and animation components.</p>
         </div>
-      </div>
-
-      <!-- Form Components -->
-      <div class="category">
-        <h3 class="category-title">Form Components</h3>
-        <div class="components-grid">
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Contact Form">
-            <h4>Contact Form</h4>
-            <p>Accessible, responsive contact form with validation and Tailwind styling.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Login Form">
-            <h4>Login Form</h4>
-            <p>Secure login form with password toggle and error handling.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Navigation Components -->
-      <div class="category">
-        <h3 class="category-title">Navigation Components</h3>
-        <div class="components-grid">
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Sticky Navbar">
-            <h4>Sticky Navbar</h4>
-            <p>Responsive sticky navigation bar with dropdown menu support.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
-          <div class="component-card">
-            <img src="/api/placeholder/300/150" alt="Sidebar Menu">
-            <h4>Sidebar Menu</h4>
-            <p>Collapsible sidebar menu for dashboards and admin panels.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Download</button>
-          </div>
+        <div class="impact-card">
+          <img src="/api/placeholder/300/150" alt="Innovation">
+          <h4>Innovation</h4>
+          <p>Drive cutting-edge research in AI and web development technologies.</p>
         </div>
       </div>
     </div>
@@ -530,6 +539,7 @@
           <a href="enroll-now.php">Courses</a>
           <a href="index.php#components">Components</a>
           <a href="contact.php">Contact</a>
+          <a href="donate.php">Donate</a>
         </div>
         <div class="social-links">
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -550,11 +560,21 @@
 
     // GSAP Animations
     gsap.from('.hero', { opacity: 0, y: 50, duration: 1, delay: 0.2 });
-    gsap.from('.component-card', { opacity: 0, y: 50, duration: 1, stagger: 0.2, delay: 0.4 });
+    gsap.from('.donation-form', { opacity: 0, y: 50, duration: 1, delay: 0.4 });
+    gsap.from('.impact-card', { opacity: 0, y: 50, duration: 1, stagger: 0.2, delay: 0.6 });
+
+    // Custom Amount Toggle
+    const customRadio = document.getElementById('amount-custom');
+    const customAmountGroup = document.getElementById('custom-amount-group');
+    document.querySelectorAll('input[name="amount"]').forEach(radio => {
+      radio.addEventListener('change', () => {
+        customAmountGroup.style.display = radio.id === 'amount-custom' ? 'block' : 'none';
+      });
+    });
   </script>
 </body>
 
 </html>
 <?php
-// Add any server-side logic here, e.g., fetching component data from a database
+// Add server-side logic here, e.g., processing donation form submissions
 ?>

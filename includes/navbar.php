@@ -10,8 +10,10 @@
         <ul>
           <li><a href="index#home">Home</a></li>
           <li><a href="index#courses">Courses</a></li>
+          <li><a href="components.php">Components</a></li>
           <li><a href="index#expertise">Expertise</a></li>
           <li><a href="index#testimonials">Testimonials</a></li>
+          <li><a href="donate.php">Donate Us</a></li>
           <li><a href="index#contact">Contact</a></li>
         </ul>
       </nav>
