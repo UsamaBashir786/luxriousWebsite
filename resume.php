@@ -875,26 +875,7 @@
 
 <body>
   <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="header-content">
-        <div class="logo">
-          <h1>ROYAL ARM</h1>
-        </div>
-        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
-        <nav>
-          <ul>
-            <li><a href="index.php#home">Home</a></li>
-            <li><a href="index.php#courses">Courses</a></li>
-            <li><a href="index.php#expertise">Expertise</a></li>
-            <li><a href="index.php#testimonials">Testimonials</a></li>
-            <li><a href="index.php#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <button class="cta-button header-cta" onclick="window.location.href='enroll.php'">Enroll Now</button>
-      </div>
-    </div>
-  </header>
+  <?php include 'includes/navbar.php'; ?>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -1267,29 +1248,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <img src="/api/placeholder/120/60" alt="Royal Arm Software Logo">
-        </div>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#courses">Courses</a>
-          <a href="#expertise">Expertise</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-        <p class="copyright">© 2025 Royal Arm Software Company. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+  <?php include 'includes/footer.php' ?>
 
   <script>
     // Menu Toggle

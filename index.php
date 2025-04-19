@@ -37,28 +37,35 @@
           <div class="course-item">
             <img src="assets/img/Ai Front End Web Development.png" alt="Beginner AI Front End">
             <h5>Beginner</h5>
-            <p>Learn HTML, CSS, JavaScript, and Tailwind CSS with AI-driven design tools. Build responsive interfaces with GSAP animations and AOS effects. Projects: AI-enhanced landing pages.</p>
+            <p>Learn HTML, CSS, and JavaScript core concepts with AI-assisted coding. Master DOM manipulation and responsive design principles. Projects: Portfolio websites and interactive widgets.</p>
             <div class="price">Free</div>
             <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
           <div class="course-item">
             <img src="assets/img/ai backend basic.png" alt="Beginner AI Back End">
             <h5>Beginner</h5>
-            <p>Explore Node.js, Express.js, and MongoDB with AI-driven APIs. Learn to build secure RESTful services. Projects: AI-enhanced task management APIs.</p>
+            <p>Learn PHP and MySQL fundamentals with AI-assisted coding. Master database design, queries, and basic server-side scripting. Projects: Contact form processors and user registration systems.</p>
             <div class="price">Free</div>
             <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
           <div class="course-item">
-            <img src="assets/img/full sack basic.png" alt="Beginner AI Full Stack">
+            <img src="assets/img/react.png" alt="Expert React.js Development">
+            <h5>Basic | Intermediate | Expert</h5>
+            <p>Master advanced React.js concepts including hooks, context API, and state management. Learn to build scalable applications with React Router, Redux Toolkit, and performance optimization techniques. Projects: E-commerce platforms and real-time dashboards.</p>
+            <div class="price">5000 PKR</div>
+            <button class="cta-button">Start Course</button>
+          </div>
+          <div class="course-item">
+            <img src="assets/img/mern basic.png" alt="Beginner AI Full Stack">
             <h5>Beginner</h5>
-            <p>Combine front end (React, Tailwind) and back end (Node.js, MongoDB) with AI tools. Build full-stack apps with basic AI features. Projects: AI-enhanced to-do apps.</p>
+            <p>Learn the basics of Node.js, Express, and MongoDB with AI-driven tools. Understand server-side development and database integration. Projects: AI-enhanced task management apps.</p>
             <div class="price">Free</div>
-            <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
+            <button class="cta-button" onclick="window.location.href='enroll.php'">Start Course</button>
           </div>
           <div class="course-item">
             <img src="assets/img/python basic.png" alt="Beginner AI Python">
             <h5>Beginner</h5>
-            <p>Master Python fundamentals with AI applications. Learn variables, loops, functions, and basic ML concepts. Projects: Simple AI chatbots, data analysis scripts.</p>
+            <p>Learn Python fundamentals using AI-driven tools. Master variables, loops, functions, and basic scripting. Projects: AI-assisted code generators, simple automation scripts.</p>
             <div class="price">Free</div>
             <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
@@ -146,11 +153,11 @@
           <div class="contact-details">
             <div class="contact-item">
               <i class="fas fa-map-marker-alt"></i>
-              <span>123 Tech Lane, London, SW1A 1PL</span>
+              <span>Sahiwal Punjab Pakistan, 57000</span>
             </div>
             <div class="contact-item">
               <i class="fas fa-phone"></i>
-              <span>+44 (0) 20 7987 6543</span>
+              <span>+92 3196977218</span>
             </div>
             <div class="contact-item">
               <i class="fas fa-envelope"></i>

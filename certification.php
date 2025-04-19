@@ -76,42 +76,42 @@
       </div>
       <div class="certification-grid">
         <div class="certification-item">
-          <img src="assets/img/html-certification.png" alt="HTML Certification">
+          <!-- <img src="assets/img/html-certification.png" alt="HTML Certification"> -->
           <h4>HTML</h4>
           <p>Test your knowledge of HTML5, semantic markup, and accessibility standards. Perfect for beginners and intermediate developers.</p>
           <div class="status">Test Available</div>
           <button class="cta-button" onclick="window.location.href='enroll.php'">Take Test</button>
         </div>
         <div class="certification-item">
-          <img src="assets/img/css-certification.png" alt="CSS Certification">
+          <!-- <img src="assets/img/css-certification.png" alt="CSS Certification"> -->
           <h4>CSS</h4>
           <p>Validate your skills in CSS3, including Flexbox, Grid, animations, and responsive design with Tailwind CSS.</p>
           <div class="status">Test Available</div>
           <button class="cta-button" onclick="window.location.href='enroll.php'">Take Test</button>
         </div>
         <div class="certification-item">
-          <img src="assets/img/javascript-certification.png" alt="JavaScript Certification">
+          <!-- <img src="assets/img/javascript-certification.png" alt="JavaScript Certification"> -->
           <h4>JavaScript</h4>
           <p>Assess your proficiency in ES6+, DOM manipulation, asynchronous programming, and frameworks like React.</p>
           <div class="status">Test Available</div>
           <button class="cta-button" onclick="window.location.href='enroll.php'">Take Test</button>
         </div>
         <div class="certification-item">
-          <img src="assets/img/python-certification.png" alt="Python Certification">
+          <!-- <img src="assets/img/python-certification.png" alt="Python Certification"> -->
           <h4>Python</h4>
           <p>Demonstrate expertise in Python fundamentals, data structures, and AI-driven applications like ML basics.</p>
           <div class="status">Test Available</div>
           <button class="cta-button" onclick="window.location.href='enroll.php'">Take Test</button>
         </div>
         <div class="certification-item">
-          <img src="assets/img/nodejs-certification.png" alt="Node.js Certification">
+          <!-- <img src="assets/img/nodejs-certification.png" alt="Node.js Certification"> -->
           <h4>Node.js</h4>
           <p>Prove your ability to build scalable RESTful APIs and server-side applications with Node.js and Express.js.</p>
           <div class="status">Test Available</div>
           <button class="cta-button" onclick="window.location.href='enroll.php'">Take Test</button>
         </div>
         <div class="certification-item">
-          <img src="assets/img/react-certification.png" alt="React Certification">
+          <!-- <img src="assets/img/react-certification.png" alt="React Certification"> -->
           <h4>React</h4>
           <p>Showcase your skills in building dynamic, component-based UIs with React, including hooks and state management.</p>
           <div class="status">Test Available</div>
