@@ -17,7 +17,7 @@
               <li><a href="tech-trends.php">Trends</a></li>
               <li><a href="success-stories.php">Success_Stories</a></li>
               <li><a href="index.php#expertise">Expertise</a></li>
-              <li><a href="index.php#expertise">Join_Team</a></li>
+              <li><a href="become-team-member.php">Join_Team</a></li>
             </ul>
           </li>
           <li><a href="components.php">Components</a></li>
