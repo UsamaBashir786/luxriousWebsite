@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 body {
@@ -119,7 +119,8 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), url('/api/placeholder/1400/800') center/cover no-repeat;
+  background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)),
+    url("/api/placeholder/1400/800") center/cover no-repeat;
   display: flex;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -502,6 +503,85 @@ footer {
 .copyright {
   color: rgba(245, 245, 245, 0.5);
   font-size: 14px;
+}
+
+/* Custom Scrollbar for Royal Arm Theme */
+
+/* For Webkit browsers (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    var(--secondary),
+    rgba(200, 164, 92, 0.7)
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(10, 10, 10, 0.8);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--secondary),
+    rgba(200, 164, 92, 0.9)
+  );
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) rgba(10, 10, 10, 0.8);
+}
+
+/* For Edge and IE */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: thin; /* Firefox */
+}
+
+/* For custom scrollable elements */
+.scrollable-element {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) rgba(10, 10, 10, 0.8);
+}
+
+.scrollable-element::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollable-element::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8);
+  border-radius: 8px;
+}
+
+.scrollable-element::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    var(--secondary),
+    rgba(200, 164, 92, 0.7)
+  );
+  border-radius: 8px;
+  border: 2px solid rgba(10, 10, 10, 0.8);
+}
+
+.scrollable-element::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--secondary),
+    rgba(200, 164, 92, 0.9)
+  );
 }
 
 /* Responsive Styles */
