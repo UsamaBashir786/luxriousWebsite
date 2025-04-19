@@ -32,118 +32,39 @@
         <h3>Our AI-Driven Courses</h3>
         <p>Discover our comprehensive courses integrating AI with modern development frameworks, with free access for Beginner and Intermediate levels and premium Expert courses.</p>
       </div>
-
-      <!-- AI Front End Development -->
       <div class="course-category">
-        <h4>AI Front End Development</h4>
         <div class="courses-grid">
           <div class="course-item">
             <img src="assets/img/Ai Front End Web Development.png" alt="Beginner AI Front End">
             <h5>Beginner</h5>
             <p>Learn HTML, CSS, JavaScript, and Tailwind CSS with AI-driven design tools. Build responsive interfaces with GSAP animations and AOS effects. Projects: AI-enhanced landing pages.</p>
             <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
+            <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
-          <div class="course-item">
-            <img src="assets/img/Ai Front End Web Development intermediate.png" alt="Intermediate AI Front End">
-            <h5>Intermediate</h5>
-            <p>Master React.js and AI-powered UI frameworks. Create dynamic, accessible front ends with real-time AI analytics integration. Projects: AI-driven dashboards and e-commerce UIs.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-          <div class="course-item">
-            <img src="assets/img/Ai Front End Web Development expert.png" alt="Expert AI Front End">
-            <h5>Expert</h5>
-            <p>Develop advanced AI-optimized front ends with Next.js and WebAssembly. Implement AI-driven UX personalization and performance optimization. Projects: AI-powered PWAs.</p>
-            <div class="price">5000 PKR</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- AI Back End Development -->
-      <div class="course-category">
-        <h4>AI Back End Development</h4>
-        <div class="courses-grid">
           <div class="course-item">
             <img src="assets/img/ai backend basic.png" alt="Beginner AI Back End">
             <h5>Beginner</h5>
             <p>Explore Node.js, Express.js, and MongoDB with AI-driven APIs. Learn to build secure RESTful services. Projects: AI-enhanced task management APIs.</p>
             <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
+            <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
-          <div class="course-item">
-            <img src="assets/img/ai backend intermediate.png" alt="Intermediate AI Back End">
-            <h5>Intermediate</h5>
-            <p>Develop scalable back ends with GraphQL and AI-powered microservices. Implement real-time data processing with WebSockets. Projects: AI-driven chatbots and analytics APIs.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-          <div class="course-item">
-            <img src="assets/img/ai backend expert.png" alt="Expert AI Back End">
-            <h5>Expert</h5>
-            <p>Master serverless architectures and AI-optimized databases with AWS Lambda and DynamoDB. Build high-performance AI inference APIs. Projects: AI-powered recommendation systems.</p>
-            <div class="price">5000 PKR</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- AI Full Stack Development -->
-      <div class="course-category">
-        <h4>AI Full Stack Development</h4>
-        <div class="courses-grid">
           <div class="course-item">
             <img src="assets/img/full sack basic.png" alt="Beginner AI Full Stack">
             <h5>Beginner</h5>
             <p>Combine front end (React, Tailwind) and back end (Node.js, MongoDB) with AI tools. Build full-stack apps with basic AI features. Projects: AI-enhanced to-do apps.</p>
             <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
+            <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
-          <div class="course-item">
-            <img src="assets/img/full stack intermediate.png" alt="Intermediate AI Full Stack">
-            <h5>Intermediate</h5>
-            <p>Create robust MERN stack apps with AI-driven features like sentiment analysis. Implement CI/CD pipelines. Projects: AI-powered e-commerce platforms.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-          <div class="course-item">
-            <img src="assets/img/full stack expert.png" alt="Expert AI Full Stack">
-            <h5>Expert</h5>
-            <p>Architect end-to-end AI-driven solutions with Next.js, GraphQL, and Kubernetes. Optimize for scale and security. Projects: AI-powered social media platforms.</p>
-            <div class="price">5000 PKR</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- AI Python -->
-      <div class="course-category">
-        <h4>AI Python Programming</h4>
-        <div class="courses-grid">
           <div class="course-item">
             <img src="assets/img/python basic.png" alt="Beginner AI Python">
             <h5>Beginner</h5>
             <p>Master Python fundamentals with AI applications. Learn variables, loops, functions, and basic ML concepts. Projects: Simple AI chatbots, data analysis scripts.</p>
             <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-          <div class="course-item">
-            <img src="assets/img/python intermediate.png" alt="Intermediate AI Python">
-            <h5>Intermediate</h5>
-            <p>Build AI models with NumPy, Pandas, and Scikit-learn. Implement data pipelines and visualization. Projects: Predictive models, automated data processors.</p>
-            <div class="price">Free</div>
-            <button class="cta-button">Start Course</button>
-          </div>
-          <div class="course-item">
-            <img src="assets/img/python expert.png" alt="Expert AI Python">
-            <h5>Expert</h5>
-            <p>Advanced AI with TensorFlow/PyTorch. Optimize models for production, deploy AI microservices. Projects: Computer vision systems, NLP applications.</p>
-            <div class="price">5000 PKR</div>
-            <button class="cta-button">Start Course</button>
+            <button class="cta-button" onclick="window.location.href='enroll.php'">Enroll Now</button>
           </div>
         </div>
       </div>
+      <button style="text-align: center;margin: auto;display: block;" class="cta-button" onclick="window.location.href='enroll.php'">View All Courses</button>
     </div>
   </section>
   <!-- components -->
@@ -158,24 +79,25 @@
           <img src="assets/img/ui components.png" alt="UI Component Kit">
           <h4>UI Component Kit</h4>
           <p>Access a rich library of reusable UI components, including buttons, forms, and modals, optimized for Tailwind CSS and React, available in free and premium versions.</p>
-          <div class="price">Free - 499 pkr</div>
+          <div class="price">Free</div>
           <button class="cta-button">Explore Components</button>
         </div>
         <div class="collection-item">
           <img src="assets/img/animation.png" alt="Animation Pack">
           <h4>Animation Pack</h4>
           <p>Elevate your websites with GSAP and AOS-powered animations, including scroll effects and transitions, with free starter packs and premium bundles.</p>
-          <div class="price">Free - 499 pkr</div>
+          <div class="price">Free</div>
           <button class="cta-button">Explore Animations</button>
         </div>
         <div class="collection-item">
           <img src="assets/img/website template.png" alt="Website Templates">
           <h4>Website Templates</h4>
           <p>Launch projects faster with our responsive templates for portfolios, e-commerce, and dashboards, compatible with HTML, CSS, and JavaScript frameworks.</p>
-          <div class="price">Free - 499 pkr</div>
+          <div class="price">Free</div>
           <button class="cta-button">Explore Templates</button>
         </div>
       </div>
+      <button style="text-align: center;margin: auto;display: block;margin-top: 30px;" class="cta-button" onclick="window.location.href='components.php'">View All components</button>
     </div>
   </section>
 
