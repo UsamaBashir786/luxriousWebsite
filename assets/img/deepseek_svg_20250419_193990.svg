@@ -1,0 +1,22 @@
+<svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="250" rx="12" fill="#F0F4F8"/>
+  <rect x="15" y="15" width="270" height="220" rx="10" fill="white" stroke="#E0E6ED" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="15" y="15" width="270" height="50" rx="10" fill="#4F46E5"/>
+  <text fill="white" font-family="Arial" font-size="18" font-weight="bold" x="150" y="45" text-anchor="middle">BEGINNER</text>
+  
+  <!-- Icons -->
+  <circle cx="150" cy="120" r="50" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+  <text fill="#4F46E5" font-family="Arial" font-size="14" font-weight="bold" x="150" y="100" text-anchor="middle">AI Web Dev</text>
+  
+  <!-- Tech Stack -->
+  <g font-family="Arial" font-size="12" text-anchor="middle" fill="#4F46E5">
+    <text x="150" y="130">HTML5</text>
+    <text x="150" y="150">CSS3</text>
+    <text x="150" y="170">JavaScript</text>
+  </g>
+  
+  <!-- Footer -->
+  <text fill="#64748B" font-family="Arial" font-size="10" x="150" y="210" text-anchor="middle">Core Web Fundamentals</text>
+</svg>
