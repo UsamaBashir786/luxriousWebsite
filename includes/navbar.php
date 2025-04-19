@@ -1,7 +1,8 @@
+<?php include 'preloader.php' ?>
 <header>
   <div class="container">
     <div class="header-content">
-      <div class="logo">
+      <div class="logo" onclick="window.location.href='index.php'">
         <img src="assets/img/logo-1.png" alt="Royal Arm Software Logo">
         <h1>ROYAL ARM</h1>
       </div>

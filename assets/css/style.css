@@ -584,6 +584,10 @@ body {
   );
 }
 
+.logo{
+  cursor: pointer;
+}
+
 /* Responsive Styles */
 
 /* Large Devices (up to 1200px) */
