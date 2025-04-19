@@ -11,16 +11,22 @@
           <li><a href="index.php#home">Home</a></li>
           <li><a href="enroll.php">Courses</a></li>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropdown-toggle">Others <i class="fas fa-chevron-down"></i></a>
+            <a href="javascript:void(0)" class="dropdown-toggle">Resources<i class="fas fa-chevron-down"></i></a>
             <ul class="dropdown-menu">
               <li><a href="resume.php">Resumes</a></li>
-              <li><a href="tech-trends.php">Trends</a></li>
+              <li><a href="components.php">Components</a></li>
               <li><a href="success-stories.php">Success_Stories</a></li>
               <li><a href="index.php#expertise">Expertise</a></li>
-              <li><a href="become-team-member.php">Join_Team</a></li>
             </ul>
           </li>
-          <li><a href="components.php">Components</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-toggle">Valuable<i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="tech-trends.php">Trends</a></li>
+              <li><a href="become-team-member.php">Join_Team</a></li>
+              <li><a href="certification.php">Certifications</a></li>
+            </ul>
+          </li>
           <li><a href="donate.php">Donate</a></li>
           <li><a href="index.php#contact">Contact</a></li>
         </ul>
